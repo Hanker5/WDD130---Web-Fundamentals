@@ -1,0 +1,57 @@
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 10%;
+}
+h1:hover{
+    color: black;
+}
+#top-p{
+    color:white;
+    font-size: 80%;
+    width: 21%;
+    margin: auto;
+    line-height: 160%;
+}
+h4{
+    color: white;
+}
+div{
+    text-align: center;
+}
+ol{
+    display: inline-block;
+    list-style-position: inside;
+    text-align: center;
+}
+li{
+    text-align: left;
+    font-weight: bold;
+    font-size: 90%;
+    margin-top: 2%;
+}
+img{
+    width: 8%;
+}
+h2{
+    width: 14%;
+    text-align: center;
+    font-size: 170%;
+    margin: 2% auto;
+    color: white;
+    line-height: 130%;
+}
+p.bottom-p{
+    color:black;
+    font-size: 85%;
+    font-weight: bold;
+    margin: 0.05% auto;
+    width: 14%;
+}
+/* *{border: 1px solid red} */
