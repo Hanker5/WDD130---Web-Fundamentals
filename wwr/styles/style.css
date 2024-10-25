@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +9,7 @@ nav a{
     text-align: center;
     color: #2C2C2C;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -16,12 +20,19 @@ nav a{
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #0077B6;
 }
 body{
     background-color: #F7F7F7;
+    font-family: "Montserrat", serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #0077B6;
@@ -34,6 +45,11 @@ nav a:hover{
     background-color: #FF4B4B;
     color: #2C2C2C;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 .book:hover, .join:hover{
     background-color: #2C2C2C;
@@ -41,10 +57,14 @@ nav a:hover{
 }
 .msg{
     background-color: #2C2C2C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #2C2C2C;
     color: #F7F7F7;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #F7F7F7;
@@ -55,21 +75,29 @@ footer a:hover{
 }
 .home-title{
     color: #2C2C2C;
+    font-family: "Pirata One", serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #2C2C2C;
 }
 h2{
     color: #2C2C2C;
+    margin: 0;
 }
 .msg h2{
-    color: #F7F7F7;
+    color: #F7F7F7; 
+    font-family: "Pirata One", serif;
 }
 .msg p{
     color: #F7F7F7;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -82,5 +110,20 @@ footer p{
 }
 footer p a:hover {
     text-decoration: underline;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #2C2C2C;
+}
+.mountains{
+    margin: 100px 0;
 }
 /* *{border: 1px solid red} */
