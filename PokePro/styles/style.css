@@ -6,23 +6,28 @@
 nav{
     background-color: #434045;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 4fr;
 }
 nav img{
-    width: 150px;
+    width: 100px;
 }
 nav a{
     justify-self: center;
     align-self: center;
-    padding: 35px;
+    padding: 20px;
     color:#fcffeb;
     font-family: "Anton SC", sans-serif;
     font-size: 2em;
+}
+#logo{
+    padding: 10px;
 }
 nav a:hover {
     color: #fe604c;
     background-color: #2bb6c2;
 }
+
+/* Body */
 
 /* Hero */
 .hero{
@@ -50,7 +55,7 @@ nav a:hover {
     color:#434045;
 }
 
-/* Body */
+/* Home Page */
 #intro{
     text-align: center;
     margin-left: 4em;
@@ -80,7 +85,7 @@ footer{
 footer a{
     justify-self: center;
     align-self: center;
-    padding: 35px;
+    padding: 20px;
     color:#fcffeb;
     font-family: "Anton SC", sans-serif;
     font-size: 1.5em;
