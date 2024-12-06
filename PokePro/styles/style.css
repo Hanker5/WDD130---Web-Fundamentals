@@ -27,7 +27,16 @@ nav a:hover {
     background-color: #2bb6c2;
 }
 
-/* Body */
+/* ---Bodys--- */
+body{
+    margin: 0;
+}
+p{
+    font-family: "Roboto Condensed", sans-serif;
+}
+li{
+    font-family: "Roboto Condensed", sans-serif;
+}
 
 /* Hero */
 .hero{
@@ -50,19 +59,108 @@ nav a:hover {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
+
     font-family: "Anton SC", sans-serif;
     font-size: 2.5em;
     color:#434045;
+    text-shadow: 2px 0px #2bb6c2,
+    -2px 0px #2bb6c2,
+    0px 2px #2bb6c2,
+    0px -2px #2bb6c2;
+
+    opacity: 0; /* Start fully transparent */
+    animation: fadeIn 0.5s ease-in-out 0.2s forwards; /* Apply the animation */
 }
 
 /* Home Page */
-#intro{
+.intro{
     text-align: center;
     margin-left: 4em;
     margin-right: 4em;
     margin-bottom: 3em;
+    margin-top: 2em;    
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.5em;
+}
+
+/* How to Play Page */
+.flex{
+    display: flex;
+    justify-content: center;
+}
+#the-card h3{
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5em;
+    margin-bottom: -50px;
+    font-size: 1.5em;
+}
+#the-card ol{ 
+    text-align: center;
+    list-style-position: inside;
+    margin: auto;
+    margin-left: 10em;
+}
+#the-card li{
+    font-size: 1.4em;
+}
+#the-card img{
+    margin-right: 200px;
+}
+
+.playmat-fade{
+    background: linear-gradient(to bottom, rgba(67, 64, 69, 0), rgba(67, 64, 69, 1));
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    border: 0;
+}
+.the-playmat{
+    background-color: #434045;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    padding-bottom: 40px;   
+}
+.the-playmat h3{
+    text-align: center;
+    color: #2bb6c2;
+    font-family: "Anton SC", sans-serif;
+    font-size: 2em;
+    margin: 10px 200px;
+    margin-top: 0;
+}
+.the-playmat ol{
+    margin-right: 50px;
+    margin: auto;
+    margin-right: 5em;
+}
+.the-playmat li{
+    font-size: 1.4em;
+    color: #fcffeb;
+}
+.playmat-fade-bottom{
+    background: linear-gradient(to top, rgba(67, 64, 69, 0), rgba(67, 64, 69, 1));
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    border: 0;
+}
+
+.setup h3{
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+.setup ol{
+    margin: 50px 200px;
+}
+.setup li{
+    font-size: 1.4em;
 }
 
 /* Footer */
@@ -99,4 +197,12 @@ footer img{
 }
 
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 /* * { border: 1px solid red; } */
